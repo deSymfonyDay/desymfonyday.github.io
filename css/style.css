@@ -96,7 +96,7 @@ sup {
 	background-color: #ffc734;
 }
 .btn.btn-primary:hover, .btn.btn-primary:focus {
-	background-color: #e3971b;
+	background-color: #e3971b	;
 }
 .btn.btn-primary:active, .btn.btn-primary.active {
 	background-color: #3d4e58;
@@ -530,7 +530,6 @@ hr.divider-short {
 	padding: 0px;
 	position: relative;
 	text-align: center;
-	text-transform: uppercase;
 	z-index: 1;
 }
 .white-header h4 {
@@ -1577,7 +1576,6 @@ a.instagram:hover {
 .event-title h3 {
 	font-size: 22px;
 	line-height: 40px;
-	text-transform: uppercase;
 }
 .event-title h3 span {
 	color: #999999;
