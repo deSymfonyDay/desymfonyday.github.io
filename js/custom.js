@@ -133,14 +133,7 @@ $(document).ready(function () {
 		$('.register-box').append('<h2>We are at capacity and can no longer accept registrations.</h2>');
 		$('.register-box').append('<button class="btn btn-large btn-primary disabled" disabled="true" id="register-button">Sold Out</button>');
 	}
-	
-	// Twitter Feed //
-	$('.tweet').twittie({
-		dateFormat: '%B %d, %Y',
-		template: '<div class="date">{{date}}</div> {{tweet}}',
-		count: 3, // define the number of tweets to be displayed, if it's one, read the lines below
-		hideReplies: true
-	});
+
 	// if you want to display only one tweet, please remove the following lines:
 	// if so, don't forget you need to change style.css line 1036 display property to display: block;
 	setInterval(function () {
