@@ -93,10 +93,10 @@ sup {
 	padding: 12px 19px 14px;
 }
 .btn.btn-primary {
-	background-color: #EF7247;
+	background-color: #ffc734;
 }
 .btn.btn-primary:hover, .btn.btn-primary:focus {
-	background-color: #ff9966;
+	background-color: #e3971b;
 }
 .btn.btn-primary:active, .btn.btn-primary.active {
 	background-color: #3d4e58;
@@ -845,7 +845,6 @@ a.instagram:hover {
 	font-size: 30px;
 	font-weight: 700;
 	letter-spacing: 4px;
-	text-transform: uppercase;
 }
 .jumbotron .days, .jumbotron .month, .jumbotron .year, .jumbotron .location {
 	display: inline-block;
@@ -858,7 +857,7 @@ a.instagram:hover {
 	line-height: 30px;
 	margin: 20px auto 0;
 	text-transform: uppercase;
-	width: 170px;
+	width: 190px;
 }
 /* Modal */
 
