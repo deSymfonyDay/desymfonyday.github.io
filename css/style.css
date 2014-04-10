@@ -26,7 +26,7 @@ a {
 	outline: 0;
 }
 a:hover {
-	color: #EF7247;
+	color: #e3971b;
 	text-decoration: none;
 }
 h1, h2 {
@@ -328,7 +328,7 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 }
 .top-bar .navbar .nav > li > a:hover, .top-bar.alt .navbar .nav > li > a:hover {
 	color: #FFFFFF;
-	background: #48A3A6 !important;
+	background: #e3971b !important;
 }
 .top-bar .navbar .nav > li > a:focus, .top-bar.alt .navbar .nav > li > a:focus {
 	outline: 0;
@@ -630,7 +630,7 @@ hr.divider-short {
 	background: #EF7247;
 }
 .icon-wrap.color3 {
-	background: #F2BC47;
+	background: #ffc734;
 }
 .icon-wrap.color4 {
 	background: #4C5D67;
