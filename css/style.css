@@ -26,7 +26,7 @@ a {
 	outline: 0;
 }
 a:hover {
-	color: #EF7247;
+	color: #e3971b;
 	text-decoration: none;
 }
 h1, h2 {
@@ -328,7 +328,7 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 }
 .top-bar .navbar .nav > li > a:hover, .top-bar.alt .navbar .nav > li > a:hover {
 	color: #FFFFFF;
-	background: #48A3A6 !important;
+	background: #e3971b !important;
 }
 .top-bar .navbar .nav > li > a:focus, .top-bar.alt .navbar .nav > li > a:focus {
 	outline: 0;
@@ -388,6 +388,8 @@ nav select {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+
+
 	color: white;
 	min-height: 300px;
 	height: 660px;
@@ -395,7 +397,7 @@ nav select {
 	padding: 0;
 }
 #about, #register, #speakers, #schedule, #workshops, #venue, #sponsors, #news, #twitter-feed, #contact, #newsletter {
-	padding: 100px 0 150px;
+	padding: 60px 0 150px;
 	-webkit-box-shadow: 0 5px 0 rgba(30, 38, 44, 0.2) inset;
 	-moz-box-shadow: 0 5px 0 rgba(30, 38, 44, 0.2) inset;
 	box-shadow: 0 5px 0 rgba(30, 38, 44, 0.2) inset;
@@ -630,7 +632,7 @@ hr.divider-short {
 	background: #EF7247;
 }
 .icon-wrap.color3 {
-	background: #F2BC47;
+	background: #ffc734;
 }
 .icon-wrap.color4 {
 	background: #4C5D67;
@@ -1881,12 +1883,29 @@ a.instagram:hover {
 }
 /* 480px */
 @media (max-width: 480px) {
+ .top-bar .logo {
+ top:20px;
+}
+
+ .top-bar nav {
+ top:20px;
+}
+
+ .navbar {
+  width:50px;
+  margin-top:10px;
+}
+
+ .top-bar.alt .navbar {
+ margin-top:50px;
+}
+
  .jumbotron {
  height: 375px;
  padding-top: 165px;
 }
  .jumbotron h1 {
- font-size: 62px;
+ font-size: 46px;
  margin: 10px 0 15px;
 }
 .jumbotron h3 {
@@ -1914,12 +1933,6 @@ a.instagram:hover {
 }
 }
  @media only screen and (max-width: 459px) {
-.navbar .btn-navbar {
- margin: 18px 0 0 !important;
-}
-.top-bar.alt .navbar .btn-navbar {
- margin: -25px 0 0 !important;
-}
  .jumbotron {
  height: 365px !important;
  padding-top: 120px !important;
