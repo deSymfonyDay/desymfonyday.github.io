@@ -1039,6 +1039,18 @@ a.instagram:hover {
 .entry-content {
 	padding: 20px 15px;
 }
+.org-logo {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+    -moz-transition: all 200ms ease;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    height: 100px;
+    width: 100px;
+}
 /* Sponsors Section */
 .sponsor-logo {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
