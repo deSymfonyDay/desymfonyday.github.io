@@ -1881,12 +1881,29 @@ a.instagram:hover {
 }
 /* 480px */
 @media (max-width: 480px) {
+ .top-bar .logo {
+ top:20px;
+}
+
+ .top-bar nav {
+ top:20px;
+}
+
+ .navbar {
+  width:50px;
+  margin-top:10px;
+}
+
+ .top-bar.alt .navbar {
+ margin-top:50px;
+}
+
  .jumbotron {
  height: 375px;
  padding-top: 165px;
 }
  .jumbotron h1 {
- font-size: 62px;
+ font-size: 46px;
  margin: 10px 0 15px;
 }
 .jumbotron h3 {
@@ -1914,12 +1931,6 @@ a.instagram:hover {
 }
 }
  @media only screen and (max-width: 459px) {
-.navbar .btn-navbar {
- margin: 18px 0 0 !important;
-}
-.top-bar.alt .navbar .btn-navbar {
- margin: -25px 0 0 !important;
-}
  .jumbotron {
  height: 365px !important;
  padding-top: 120px !important;
