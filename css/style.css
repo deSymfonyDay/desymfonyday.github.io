@@ -388,12 +388,15 @@ nav select {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+
+
 	color: white;
 	min-height: 300px;
 	height: 660px;
 	margin: 0 auto;
 	padding: 0;
 }
+
 #about, #register, #speakers, #schedule, #workshops, #venue, #sponsors, #news, #twitter-feed, #contact, #newsletter {
 	padding: 100px 0 150px;
 	-webkit-box-shadow: 0 5px 0 rgba(30, 38, 44, 0.2) inset;
