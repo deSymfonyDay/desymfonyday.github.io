@@ -396,7 +396,7 @@ nav select {
 	margin: 0 auto;
 	padding: 0;
 }
-#about, #register, #speakers, #schedule, #workshops, #venue, #sponsors, #news, #twitter-feed, #contact, #newsletter {
+#about, #register, #speakers, #schedule, #workshops, #venue, #sponsors, #news, #twitter-feed, #contact, #newsletter, #team {
 	padding: 60px 0 150px;
 	-webkit-box-shadow: 0 5px 0 rgba(30, 38, 44, 0.2) inset;
 	-moz-box-shadow: 0 5px 0 rgba(30, 38, 44, 0.2) inset;
@@ -439,6 +439,11 @@ nav select {
 #news {
 	background: #EF7247;
 }
+
+#team .hero-unit {
+	margin-bottom: 15px;
+}
+
 #twitter-feed {
 	background: #E7EBED;
 	padding: 60px 0;
@@ -1048,8 +1053,12 @@ a.instagram:hover {
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
     transition: all 200ms ease;
-    height: 100px;
-    width: 100px;
+    height: 130px;
+    width: 130px;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+    border:3px solid #ffc734;
 }
 /* Sponsors Section */
 .sponsor-logo {
