@@ -44,6 +44,10 @@ sup {
 	padding: 0 0 0 1px;
 	text-transform: none;
 }
+
+.modal-body {
+	max-height: 460px;
+}
 /* Buttons */
 .btn {
 	border: none;
