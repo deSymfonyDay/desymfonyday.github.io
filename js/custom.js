@@ -175,7 +175,7 @@ $(document).ready(function () {
 	
 	// Google Map //
 	$('#map_canvas').gmap({
-		'center': new google.maps.LatLng(40.77288, -73.98299), // Change this to your desired latitude and longitude
+		'center': new google.maps.LatLng(41.414502,  2.177482), // Change this to your desired latitude and longitude
 		'zoom': 17,
 		'mapTypeControl': false,
 		'navigationControl': false,
@@ -209,12 +209,12 @@ $(document).ready(function () {
 	$('#map_canvas').gmap().bind('init', function () {
 		$('#map_canvas').gmap('addMarker', {
 			'id': 'marker-1',
-			'position': '40.77288,-73.98299',
+			'position': '41.413702,2.177482',
 			'bounds': false,
 			'icon': image
 		}).click(function () {
 			$('#map_canvas').gmap('openInfoWindow', {
-				'content': '<h4>Eventify</h4><p><strong>Downtown Conference Center</strong><br>Columbus Ave. New York, NY 10019 </p>'
+				'content': '<h4>deSymfonyDay2014</h4><p><strong>Casa Convalescència</strong><br/>C/ Sant Antoni Maria Claret 171<br/>08041 Barcelona</p>'
 			}, this);
 		});
 	});
