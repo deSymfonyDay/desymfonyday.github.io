@@ -1075,7 +1075,6 @@ a.instagram:hover {
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 	/*width: 70%;*/
-    width: 90%;
 }
 .sponsor-logo:hover {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
